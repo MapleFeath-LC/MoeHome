@@ -10,7 +10,7 @@ window.HOMEPAGE_CONFIG = {
     name: "凉辰", // 站点名称（用于标题后缀）
     tagline: "技术爱好者", // 站点标语（用于首页标题）
     url: "", // 站点完整 URL（用于 OG 图片等绝对路径）- 空值使用相对路径
-    ogImage: "/images/avatar.webp", // 默认 OG 图片（所有页面共用）
+    ogImage: "/images/avatar.jpg", // 默认 OG 图片（所有页面共用）
   },
 
   // ========== SEO 配置（首页专用） ==========
@@ -26,7 +26,7 @@ window.HOMEPAGE_CONFIG = {
     og: {
       title: "凉辰 - 个人主页",
       description: "技术爱好者 - 与我一起探索技术边界",
-      image: "https://example.com/images/avatar.webp",
+      image: "https://moe.furrylc.cc.cd/images/avatar.jpg",
     },
   },
 
@@ -117,7 +117,7 @@ window.HOMEPAGE_CONFIG = {
       prefix: "🐾",
       highlight: "欢迎来到我的主页！",
     },
-    avatar: "images/avatar.webp",
+    avatar: "images/avatar.jpg",
   },
 
   // ========== Favicon 配置 ==========
@@ -424,14 +424,14 @@ window.HOMEPAGE_CONFIG = {
         name: "微信支付",
         key: "wechat",
         icon: "fa-brands fa-weixin",
-        qrImage: "images/wechat.png", // 图片路径相对于 src/ 目录
+        qrImage: "images/wechat.jpg", // 图片路径相对于 src/ 目录
         enabled: true,
       },
       {
         name: "支付宝",
         key: "alipay",
         icon: "fa-brands fa-alipay",
-        qrImage: "images/alipay.png",
+        qrImage: "images/alipay.jpg",
         enabled: true,
       },
       {
