@@ -7,8 +7,8 @@ window.HOMEPAGE_CONFIG = {
   // ========== 站点基础配置 ==========
   // 这些是网站的核心信息，会被所有页面引用
   site: {
-    name: "YourName", // 站点名称（用于标题后缀）
-    tagline: "技术博主 / 开源爱好者 / AI 探索者", // 站点标语（用于首页标题）
+    name: "凉辰", // 站点名称（用于标题后缀）
+    tagline: "技术爱好者", // 站点标语（用于首页标题）
     url: "", // 站点完整 URL（用于 OG 图片等绝对路径）- 空值使用相对路径
     ogImage: "/images/avatar.webp", // 默认 OG 图片（所有页面共用）
   },
@@ -17,21 +17,15 @@ window.HOMEPAGE_CONFIG = {
   // 首页使用完整的自定义 SEO 内容
   // 内页会自动生成标准格式的标题和描述
   seo: {
-    title: "YourName - 技术博主 / 开源爱好者 / AI 探索者",
+    title: "凉辰 - 技术爱好者",
     description: "Hi，欢迎访问我的个人主页。这里是技术分享与生活记录的空间。",
     keywords: [
-      "YourName",
-      "技术博客",
-      "Astro",
-      "Docker",
-      "NAS",
-      "私有云",
-      "AI工具",
-      "自动化部署",
+      "凉辰",
+      "技术爱好者",
     ],
     og: {
-      title: "YourName - 个人主页",
-      description: "开源爱好者 / AI探索者 - 与我一起探索技术边界",
+      title: "凉辰 - 个人主页",
+      description: "技术爱好者 - 与我一起探索技术边界",
       image: "https://example.com/images/avatar.webp",
     },
   },
@@ -118,7 +112,7 @@ window.HOMEPAGE_CONFIG = {
 
   // ========== 个人信息 ==========
   profile: {
-    name: "YourName",
+    name: "凉辰",
     tagline: {
       prefix: "🐾",
       highlight: "欢迎来到我的主页！",
@@ -132,10 +126,10 @@ window.HOMEPAGE_CONFIG = {
   },
 
   // ========== 身份标签 ==========
-  identity: ["Hi, I'm YourName.", "开源爱好者", "AI探索者", "自动化实践者"],
+  identity: ["Hi, I'm 凉辰.", "技术爱好者"],
 
   // ========== 兴趣领域 ==========
-  interests: ["Docker & 容器技术", "NAS & 私有云", "AI工具", "自动化部署"],
+  interests: ["AI", "代码"],
 
   // ========== 装备列表 ==========
   // 填写你的装备，会在终端显示 `cat gear.txt` 命令
@@ -164,7 +158,7 @@ window.HOMEPAGE_CONFIG = {
       },
       {
         command: "./wisdom.sh",
-        output: "dynamic", // 循环播放名人语录
+        output: "quotes", // 循环播放名人语录
       },
     ],
   },
@@ -265,7 +259,7 @@ window.HOMEPAGE_CONFIG = {
     enabled: true, // 是否启用贡献图
     useRealData: true, // true=真实数据, false=随机数据
     // GitHub 用户名（留空则从 projects.githubUser 自动提取）
-    githubUser: "",
+    githubUser: "MapleFeath-LC",
   },
 
   // ========== 个人动态配置 ==========
@@ -335,7 +329,7 @@ window.HOMEPAGE_CONFIG = {
       brand: "blog",
       external: true,
       color: "#00ff9f",
-      enabled: true,
+      enabled: false,
     },
     {
       name: "Photos",
@@ -345,12 +339,12 @@ window.HOMEPAGE_CONFIG = {
       brand: "photos",
       external: true,
       color: "#FF9500",
-      enabled: true,
+      enabled: false,
     },
     {
       name: "GitHub",
       description: "开源项目 & 代码",
-      url: "https://github.com/yourid",
+      url: "https://github.com/MapleFeath-LC",
       icon: "fa-brands fa-github",
       brand: "github",
       external: true,
@@ -365,7 +359,7 @@ window.HOMEPAGE_CONFIG = {
       brand: "x",
       external: true,
       color: "#C0C0C0",
-      enabled: true,
+      enabled: false,
     },
     {
       name: "Telegram",
@@ -375,7 +369,7 @@ window.HOMEPAGE_CONFIG = {
       brand: "telegram",
       external: true,
       color: "#229ED9",
-      enabled: true,
+      enabled: false,
     },
     {
       name: "Discord",
@@ -385,12 +379,12 @@ window.HOMEPAGE_CONFIG = {
       brand: "discord",
       external: true,
       color: "#5865F2",
-      enabled: true,
+      enabled: false,
     },
     {
       name: "Bilibili",
       description: "视频教程",
-      url: "https://space.bilibili.com/yourid",
+      url: "https://space.bilibili.com/695959461",
       icon: "fa-brands fa-bilibili",
       brand: "bilibili",
       external: true,
@@ -405,12 +399,12 @@ window.HOMEPAGE_CONFIG = {
       brand: "weibo",
       external: true,
       color: "#E6162D",
-      enabled: true,
+      enabled: false,
     },
     {
       name: "Email",
       description: "联系 & 合作",
-      url: "mailto:example@email.com",
+      url: "mailto:admin@furrylc.cc.cd",
       icon: "fa-solid fa-envelope",
       brand: "email",
       external: false,
@@ -422,7 +416,7 @@ window.HOMEPAGE_CONFIG = {
 
   // ========== 赞赏支持配置 ==========
   donation: {
-    enabled: false, // 设置为 true 启用
+    enabled: true, // 设置为 true 启用
     title: {
       text: "赞助支持",
       icon: "fa-solid fa-mug-hot",
@@ -449,7 +443,7 @@ window.HOMEPAGE_CONFIG = {
         key: "afdian",
         icon: "fa-solid fa-heart",
         url: "https://ifdian.net/a/yourname",
-        enabled: true,
+        enabled: false,
       },
       {
         name: "PayPal",
@@ -465,9 +459,9 @@ window.HOMEPAGE_CONFIG = {
   footer: {
     // 版权信息配置
     copyright: {
-      year: "2018-2026", // 版权年份
-      name: "Your Name", // 版权名称
-      url: "https://yourblog.com/", // 链接地址
+      year: "2022-2026", // 版权年份
+      name: "凉辰", // 版权名称
+      url: "https://moe.furrylc.cc.cd/", // 链接地址
     },
     // ICP 备案号配置（中国大陆网站需要）
     icp: {
