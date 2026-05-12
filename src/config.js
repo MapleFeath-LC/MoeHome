@@ -134,15 +134,11 @@ window.HOMEPAGE_CONFIG = {
   // ========== 装备列表 ==========
   // 填写你的装备，会在终端显示 `cat gear.txt` 命令
   // 留空数组 [] 则不显示此命令
-  gear: [
-    // "设备1",
-    // "设备2",
-    // "设备3",
-  ],
+  gear: [],
 
   // ========== 终端配置 ==========
   terminal: {
-    title: "🐾 user@host:~|",
+    title: "🐾 admin@furrylc.cc.cd:~|",
     prompts: [
       {
         command: "whoami",
@@ -383,7 +379,7 @@ window.HOMEPAGE_CONFIG = {
     },
     {
       name: "Bilibili",
-      description: "视频教程",
+      description: "视频 & 直播",
       url: "https://space.bilibili.com/695959461",
       icon: "fa-brands fa-bilibili",
       brand: "bilibili",
